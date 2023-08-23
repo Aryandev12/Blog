@@ -1,5 +1,5 @@
 body{
-    background-color: #FAF0E6;
+    background-color: #E3E7E8;
 }
 .container-fluid {
     padding-top: 70px;
@@ -14,17 +14,18 @@ body{
     font-size: 15px;
     letter-spacing: 5px;
     background-color: #352F44;
+    width: 100%;
 }
 .navbar-nav  li a:hover {
     color: #0c1f21 !important;
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 
 .footer {
-	position: absolute;
+    padding-top: 0.1px;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
@@ -33,7 +34,23 @@ body{
 }
 
 .footer p {
-	margin-top: 25px;
+	margin-top: 15px;
 	font-size: 12px;
   color: #fff;
+}
+.title{
+    height:30px;
+    width: 50%;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.post{
+    height: 150px;
+    width: 75%;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.style1{
+    
+        border-top: 2px solid #c9c6c6;
 }

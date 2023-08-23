@@ -1,0 +1,15 @@
+<%-include("partials/header")%>
+<div>
+<div>
+<form method="post" action="/compose">
+    <label for="composition"><h1>Compose</h1></label>
+    <h3>Title</h3>
+    <input type="text" class="title"  name="composeTitle" autocomplete="off">
+    <br>
+    <h3>Post</h3>
+    <textarea  class="post" name="composeText" rows="5" cols="50" autocomplete="off"></textarea>
+    <br>
+   <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+</div>
+</div>
